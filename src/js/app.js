@@ -22,9 +22,9 @@ else {
     let x = mainnum;
     let y =0;
     while (x > 0) {
-        let restNumb = x % 10; //121:10=1
-        y = y * 10 + restNumb //0 vur 10 +1 1
-        x = Math.floor(x / 10) 
+        let restNumb = x % 10; //121:10=1   12:10 2   1:10 1
+        y = y * 10 + restNumb //0 vur 10 +1 1    1*10+2 12  12*10+1 121
+        x = Math.floor(x / 10) // 121:10 12    12:10 1  
 
     }
     console.log(mainnum === y)
